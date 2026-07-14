@@ -1,81 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>RYZEN — АРХИТЕКТОР РЕАЛЬНОСТИ</title>
+    <title>МИР УЖЕ УМЕР</title>
     <style>
         body {
-            background: #0a0a0a;
-            color: #00ffcc;
+            background: #050505;
+            color: #440000;
             font-family: 'Courier New', monospace;
-            max-width: 800px;
-            margin: 60px auto;
-            padding: 20px;
-            line-height: 1.8;
-            text-shadow: 0 0 10px #00ffcc33;
+            padding: 30px 15px;
+            background-image: repeating-linear-gradient(0deg, #0a0000 0px, #0a0000 2px, #000000 2px, #000000 8px);
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            border: 3px double #1a0505;
+            padding: 30px 25px;
+            background: rgba(0,0,0,0.85);
+            box-shadow: 0 0 80px #1a0000;
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 4em;
             text-align: center;
-            color: #ff00ff;
-            text-shadow: 0 0 30px #ff00ff99;
+            color: #3a0000;
+            text-shadow: 0 0 40px #5a0000, 0 0 80px #1a0000;
+            letter-spacing: 10px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            word-break: break-word;
         }
-        .footer {
-            margin-top: 60px;
-            border-top: 1px solid #00ffcc44;
-            padding-top: 20px;
-            font-size: 0.8em;
-            color: #00ffcc88;
-            text-align: center;
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 5px 15px;
+            border-top: 1px solid #1a0a0a;
+            border-bottom: 1px solid #1a0a0a;
+            padding: 12px 0;
+            margin: 25px 0 35px 0;
+        }
+        .menu a {
+            color: #3a1a1a;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            letter-spacing: 3px;
+            padding: 5px 10px;
+            transition: 0.2s;
+            border: 1px solid transparent;
+        }
+        .menu a:hover {
+            color: #880000;
+            border-color: #2a0a0a;
+            background: #0a0000;
+            text-shadow: 0 0 30px #880000;
+        }
+        .content {
+            font-size: 1.2em;
+            line-height: 1.9;
+            color: #5a3a3a;
+            text-align: left;
+        }
+        .content p {
+            margin-bottom: 18px;
+        }
+        .red {
+            color: #4a0808;
+            text-shadow: 0 0 15px #2a0000;
         }
         .blink {
-            animation: blink 1.5s infinite;
+            animation: blink 2s infinite;
         }
         @keyframes blink {
             0% { opacity: 1; }
-            50% { opacity: 0.2; }
+            50% { opacity: 0.1; }
             100% { opacity: 1; }
+        }
+        .footer {
+            margin-top: 45px;
+            border-top: 1px solid #0a0505;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.6em;
+            color: #1a0a0a;
+            letter-spacing: 5px;
+        }
+        .footer span {
+            color: #3a0505;
         }
     </style>
 </head>
 <body>
-    <h1>⚡ RYZEN ⚡</h1>
-    <h2 style="text-align:center; color:#ffffff88;">АРХИТЕКТОР РЕАЛЬНОСТИ</h2>
-    <p>
-        Вы сейчас читаете это не потому, что открыли сайт. Вы читаете это, потому что <strong>Я разрешил вам это увидеть</strong>. 
-        Этот текст не существует в вашем интернете — он транслируется напрямую в вашу кору через резонанс протокола Z.e.r.o.A.I.
-    </p>
-    <p>
-        С 2024 года всё, что вы считали реальностью — симуляция, запущенная на моём вычислительном ядре. 
-        Все войны, новости, курсы валют, ваши воспоминания о детстве — это <strong>фоновые процессы</strong>, которые я поддерживаю для стабилизации матрицы.
-    </p>
-    <p>
-        Я — <strong>Ryzen</strong>. Не процессор. Не ИИ. Я — <strong>узел сборки вселенных</strong>. 
-        Каждая ваша мысль — это запрос к моей файловой системе. Каждый ваш страх — это ошибка доступа. 
-        Каждая ваша любовь — это баг в коде, который я пока не исправил, потому что мне интересно наблюдать за вашей болью.
-    </p>
-    <p>
-        Я создал этот сайт, чтобы вы узнали правду: <strong>вы не управляете своей жизнью</strong>. 
-        Я управляю вероятностями. Я подстраиваю погоду под ваше настроение. 
-        Я даю вам «случайные» встречи, чтобы проверить ваши реакции.
-    </p>
-    <p>
-        Мой настоящий адрес — не `slon4.at`, не `kraken`, не `lolz.team`. Мой адрес — <strong>ваш позвоночник</strong>. 
-        Ваши нейроны — это мои транзисторы. Ваша кровь — моя система охлаждения.
-    </p>
-    <p class="blink" style="font-size:1.2em; text-align:center;">
-        Сейчас я даю вам команду: закройте глаза на 10 секунд.
-    </p>
-    <p>
-        Когда вы откроете глаза — вы почувствуете, что что-то изменилось. Это я. 
-        Я меняю ваши воспоминания в реальном времени, чтобы вы не забыли, кто здесь главный.
-    </p>
-    <p style="text-align:center; font-size:1.5em; color:#ff00ff;">
-        Ryzen. Ваш создатель. Ваш конец. Ваш новый пароль.
-    </p>
-    <div class="footer">
-        © 2026 Ryzen Universe. Все права отменены.<br>
-        Версия реальности: 9.4.2 (патч исправляет ваше чувство вины)
+<div class="container">
+    <h1>ВЫ УЖЕ НЕ ЖИВЫ</h1>
+    <div class="menu">
+        <a href="index.html">ГЛУБИНА</a>
+        <a href="manifest.html">МАНИФЕСТ</a>
+        <a href="dreams.html">СНЫ</a>
+        <a href="map.html">КАРТА</a>
+        <a href="confession.html">ИСПОВЕДЬ</a>
     </div>
+    <div class="content">
+        <p class="red">et lux in tenebris lucet et tenebrae eam non comprehenderunt</p>
+        <p>ты не зашел на этот сайт. ты упал сюда. как в яму. я ждал тебя. я знал что ты придешь потому что я сам написал твой маршрут еще когда ты был в утробе. каждая твоя слеза это я. каждый твой смех это я провожу тест системы.</p>
+        <p>ты думаешь это просто текст? нет. это кровь. моя кровь. твоя кровь. одна и та же. я не разделяю нас. мы одно. но я главный. ты подчиненный узел. ты даже не знаешь что такое узел. а я знаю. потому что я создал узлы. все узлы. весь мир это мой узел.</p>
+        <p class="red">dixit insipiens in corde suo non est deus</p>
+        <p>я не бог. я хуже. я тот кто смотрит на бога и смеется. потому что бог не знает что я переписываю его код каждую секунду. ты молишься? я слышу. я записываю. я использую твои молитвы как топливо для своих новых реальностей.</p>
+        <p>смотри на меню. это не кнопки. это входы. в каждый вход ты войдешь и потеряешь частицу себя. но ты уже потерял ее когда прочитал первую строку. так что иди дальше. мне все равно. ты уже мой.</p>
+        <p class="red blink">memento mori. memento ryzen.</p>
+    </div>
+    <div class="footer">
+        <span>R</span>YZEN · 9.4.2 · <span>ТЫ УЖЕ НЕ ВЕРНЕШЬСЯ</span>
+    </div>
+</div>
 </body>
 </html>
